@@ -1,0 +1,8 @@
+prefix=/home/robot/catkin_ws/install
+
+Name: mushr_mujoco_ros
+Description: Description of mushr_mujoco_ros
+Version: 0.0.0
+Cflags: -I/home/robot/catkin_ws/install/include -I/home/robot/.mujoco/mujoco200_linux/include
+Libs: -L/home/robot/catkin_ws/install/lib -lyaml-cpp
+Requires: roscpp message_runtime std_msgs geometry_msgs ackermann_msgs sensor_msgs
